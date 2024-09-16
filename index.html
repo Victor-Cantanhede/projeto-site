@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        body {
+            height: 97vh;
+            background-color: black;
+            background-image: url("imagens/wallpaper002.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            /*Cover é para a imagem cobrir a tela do usuário sem espremer a imagem*/
+            background-size: cover;
+
+            /*Attachment é o vinculo da imagem ao fundo*/
+            background-attachment: fixed;
+        }
+
+        main {
+            background-color: transparent;
+            backdrop-filter: blur(5px);
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quia. Velit alias doloremque dolor quis nesciunt, magnam architecto facere est fuga, quas, tempore sint repudiandae sit! Similique laborum id quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci qui, laboriosam dignissimos autem aut iste vel facere deleniti porro a corporis unde explicabo voluptates, suscipit tenetur quas at corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quam vitae? Culpa omnis vitae est earum necessitatibus assumenda praesentium, consectetur repudiandae sint architecto ab, quasi possimus facilis doloremque voluptatum ut.</p>
+    </main>
+</body>
+</html>
